@@ -1,0 +1,848 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F708F4A2B2C42B900067B07 /* EcoFriendlyCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F708F482B2C42B900067B07 /* EcoFriendlyCVC.swift */; };
+		3F708F4B2B2C42B900067B07 /* EcoFriendlyCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F708F492B2C42B900067B07 /* EcoFriendlyCVC.xib */; };
+		3FA2682E2B21937400BDFD9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2682D2B21937400BDFD9C /* AppDelegate.swift */; };
+		3FA268302B21937400BDFD9C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2682F2B21937400BDFD9C /* SceneDelegate.swift */; };
+		3FA268322B21937400BDFD9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA268312B21937400BDFD9C /* ViewController.swift */; };
+		3FA268352B21937400BDFD9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA268332B21937400BDFD9C /* Main.storyboard */; };
+		3FA268372B21937500BDFD9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FA268362B21937500BDFD9C /* Assets.xcassets */; };
+		3FA2683A2B21937500BDFD9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA268382B21937500BDFD9C /* LaunchScreen.storyboard */; };
+		3FA268582B21B5B300BDFD9C /* CircleImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA268562B21B5B300BDFD9C /* CircleImg.swift */; };
+		3FA268592B21B5B300BDFD9C /* CircleImg.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FA268572B21B5B300BDFD9C /* CircleImg.xib */; };
+		3FA268622B21CB2C00BDFD9C /* GaneshaimgCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA268602B21CB2C00BDFD9C /* GaneshaimgCVC.swift */; };
+		3FA268632B21CB2C00BDFD9C /* GaneshaimgCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FA268612B21CB2C00BDFD9C /* GaneshaimgCVC.xib */; };
+		3FC91C3A2B22F2200007ED85 /* GimgVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC91C392B22F2200007ED85 /* GimgVC.swift */; };
+		3FE38DBB2B2AE18A00C1EFB8 /* GaneshaIMG.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE38DBA2B2AE18A00C1EFB8 /* GaneshaIMG.storyboard */; };
+		3FE38DBD2B2C31D700C1EFB8 /* Famous.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE38DBC2B2C31D700C1EFB8 /* Famous.storyboard */; };
+		3FE38DBF2B2C31F200C1EFB8 /* FamousMandal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE38DBE2B2C31F200C1EFB8 /* FamousMandal.storyboard */; };
+		3FE38DC12B2C320000C1EFB8 /* Decoration.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE38DC02B2C320000C1EFB8 /* Decoration.storyboard */; };
+		3FE38DC32B2C321000C1EFB8 /* GaneshAarti.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE38DC22B2C321000C1EFB8 /* GaneshAarti.storyboard */; };
+		3FE38DC52B2C322000C1EFB8 /* GaneshStories.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE38DC42B2C322000C1EFB8 /* GaneshStories.storyboard */; };
+		3FE38DC72B2C32EB00C1EFB8 /* Fmurtikar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE38DC62B2C32EB00C1EFB8 /* Fmurtikar.swift */; };
+		3FE38DC92B2C330200C1EFB8 /* Fmandal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE38DC82B2C330200C1EFB8 /* Fmandal.swift */; };
+		3FE38DCB2B2C331600C1EFB8 /* Dideas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE38DCA2B2C331600C1EFB8 /* Dideas.swift */; };
+		3FE38DCD2B2C332C00C1EFB8 /* Gaarti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE38DCC2B2C332C00C1EFB8 /* Gaarti.swift */; };
+		3FE38DCF2B2C333F00C1EFB8 /* Gstories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE38DCE2B2C333F00C1EFB8 /* Gstories.swift */; };
+		3FE38DD32B2C3E5B00C1EFB8 /* EcoFriendly.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE38DD22B2C3E5B00C1EFB8 /* EcoFriendly.storyboard */; };
+		3FE38DD52B2C3E7200C1EFB8 /* EcoFriendlyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE38DD42B2C3E7200C1EFB8 /* EcoFriendlyVC.swift */; };
+		724BDFB62B43EFEC008FB418 /* Aartidata.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 724BDFB42B43EFEC008FB418 /* Aartidata.xcdatamodeld */; };
+		7265141E2B3C059100F6E05A /* MurtiDispCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7265141C2B3C059100F6E05A /* MurtiDispCVC.swift */; };
+		7265141F2B3C059100F6E05A /* MurtiDispCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7265141D2B3C059100F6E05A /* MurtiDispCVC.xib */; };
+		7293BE6C2B3E87C100AFD52A /* StoryCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7293BE6A2B3E87C100AFD52A /* StoryCVC.swift */; };
+		7293BE6D2B3E87C100AFD52A /* StoryCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7293BE6B2B3E87C100AFD52A /* StoryCVC.xib */; };
+		729AFBB32B3AB0BD003AC9FE /* GstoriesCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729AFBB12B3AB0BD003AC9FE /* GstoriesCVC.swift */; };
+		729AFBB42B3AB0BD003AC9FE /* GstoriesCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 729AFBB22B3AB0BD003AC9FE /* GstoriesCVC.xib */; };
+		729AFBB72B3AC0B4003AC9FE /* StoryDetailsDispla.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 729AFBB62B3AC0B4003AC9FE /* StoryDetailsDispla.storyboard */; };
+		729AFBB92B3AC0FC003AC9FE /* Gstory2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729AFBB82B3AC0FC003AC9FE /* Gstory2.swift */; };
+		729AFBBC2B3AC627003AC9FE /* DisplayMurtiApi.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 729AFBBB2B3AC627003AC9FE /* DisplayMurtiApi.storyboard */; };
+		729AFBBE2B3AC63B003AC9FE /* MurtiCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729AFBBD2B3AC63B003AC9FE /* MurtiCVC.swift */; };
+		72BDCCEC2B3413350042601A /* AartiCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BDCCEA2B3413350042601A /* AartiCVC.swift */; };
+		72BDCCED2B3413350042601A /* AartiCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72BDCCEB2B3413350042601A /* AartiCVC.xib */; };
+		72BDCCF02B341FB80042601A /* Aarti play.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72BDCCEF2B341FB80042601A /* Aarti play.storyboard */; };
+		72BDCCF22B341FED0042601A /* Aarti play.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BDCCF12B341FED0042601A /* Aarti play.swift */; };
+		72BDCCF52B3421730042601A /* IdeasDisplay.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72BDCCF42B3421730042601A /* IdeasDisplay.storyboard */; };
+		72BDCCF92B3421A30042601A /* IdeasDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BDCCF82B3421A30042601A /* IdeasDisplay.swift */; };
+		72BDCCFC2B3433020042601A /* MandalDisplay.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72BDCCFB2B3433020042601A /* MandalDisplay.storyboard */; };
+		72BDCCFE2B34331C0042601A /* MandalDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BDCCFD2B34331C0042601A /* MandalDisplay.swift */; };
+		72BDCD022B343C7A0042601A /* DMCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BDCD002B343C7A0042601A /* DMCollectionViewCell.swift */; };
+		72BDCD032B343C7A0042601A /* DMCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72BDCD012B343C7A0042601A /* DMCollectionViewCell.xib */; };
+		72F803EE2B45316E00D79B93 /* DisplayAartiCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F803EC2B45316E00D79B93 /* DisplayAartiCVC.swift */; };
+		72F803EF2B45316E00D79B93 /* DisplayAartiCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72F803ED2B45316E00D79B93 /* DisplayAartiCVC.xib */; };
+		9B0DA5142B302DC9004959BB /* MurtikarCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0DA5122B302DC9004959BB /* MurtikarCVC.swift */; };
+		9B0DA5152B302DC9004959BB /* MurtikarCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B0DA5132B302DC9004959BB /* MurtikarCVC.xib */; };
+		9B897E402B316D3D000E7020 /* MandalCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B897E3E2B316D3D000E7020 /* MandalCVC.swift */; };
+		9B897E412B316D3D000E7020 /* MandalCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B897E3F2B316D3D000E7020 /* MandalCVC.xib */; };
+		9B897E462B318665000E7020 /* IdeaCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B897E442B318665000E7020 /* IdeaCVC.swift */; };
+		9B897E472B318665000E7020 /* IdeaCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B897E452B318665000E7020 /* IdeaCVC.xib */; };
+		BDD77A497A1126E89D71CDFF /* Pods_Ganesha_Application_P1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 696EE73F0202C3B12EAE792E /* Pods_Ganesha_Application_P1.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1812E69BE0F37DCD2DB74A4E /* Pods-Ganesha Application P1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ganesha Application P1.release.xcconfig"; path = "Target Support Files/Pods-Ganesha Application P1/Pods-Ganesha Application P1.release.xcconfig"; sourceTree = "<group>"; };
+		3F708F482B2C42B900067B07 /* EcoFriendlyCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoFriendlyCVC.swift; sourceTree = "<group>"; };
+		3F708F492B2C42B900067B07 /* EcoFriendlyCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EcoFriendlyCVC.xib; sourceTree = "<group>"; };
+		3FA2682A2B21937400BDFD9C /* Ganesha Application P1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ganesha Application P1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA2682D2B21937400BDFD9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FA2682F2B21937400BDFD9C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3FA268312B21937400BDFD9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FA268342B21937400BDFD9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FA268362B21937500BDFD9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FA268392B21937500BDFD9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FA2683B2B21937500BDFD9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FA268562B21B5B300BDFD9C /* CircleImg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImg.swift; sourceTree = "<group>"; };
+		3FA268572B21B5B300BDFD9C /* CircleImg.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CircleImg.xib; sourceTree = "<group>"; };
+		3FA268602B21CB2C00BDFD9C /* GaneshaimgCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaneshaimgCVC.swift; sourceTree = "<group>"; };
+		3FA268612B21CB2C00BDFD9C /* GaneshaimgCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GaneshaimgCVC.xib; sourceTree = "<group>"; };
+		3FC91C392B22F2200007ED85 /* GimgVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GimgVC.swift; sourceTree = "<group>"; };
+		3FE38DBA2B2AE18A00C1EFB8 /* GaneshaIMG.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GaneshaIMG.storyboard; sourceTree = "<group>"; };
+		3FE38DBC2B2C31D700C1EFB8 /* Famous.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Famous.storyboard; sourceTree = "<group>"; };
+		3FE38DBE2B2C31F200C1EFB8 /* FamousMandal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FamousMandal.storyboard; sourceTree = "<group>"; };
+		3FE38DC02B2C320000C1EFB8 /* Decoration.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Decoration.storyboard; sourceTree = "<group>"; };
+		3FE38DC22B2C321000C1EFB8 /* GaneshAarti.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GaneshAarti.storyboard; sourceTree = "<group>"; };
+		3FE38DC42B2C322000C1EFB8 /* GaneshStories.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GaneshStories.storyboard; sourceTree = "<group>"; };
+		3FE38DC62B2C32EB00C1EFB8 /* Fmurtikar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fmurtikar.swift; sourceTree = "<group>"; };
+		3FE38DC82B2C330200C1EFB8 /* Fmandal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fmandal.swift; sourceTree = "<group>"; };
+		3FE38DCA2B2C331600C1EFB8 /* Dideas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dideas.swift; sourceTree = "<group>"; };
+		3FE38DCC2B2C332C00C1EFB8 /* Gaarti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gaarti.swift; sourceTree = "<group>"; };
+		3FE38DCE2B2C333F00C1EFB8 /* Gstories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gstories.swift; sourceTree = "<group>"; };
+		3FE38DD22B2C3E5B00C1EFB8 /* EcoFriendly.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EcoFriendly.storyboard; sourceTree = "<group>"; };
+		3FE38DD42B2C3E7200C1EFB8 /* EcoFriendlyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoFriendlyVC.swift; sourceTree = "<group>"; };
+		426F28D5E5B83C9BCD42A644 /* Pods-Ganesha Application P1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ganesha Application P1.debug.xcconfig"; path = "Target Support Files/Pods-Ganesha Application P1/Pods-Ganesha Application P1.debug.xcconfig"; sourceTree = "<group>"; };
+		696EE73F0202C3B12EAE792E /* Pods_Ganesha_Application_P1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ganesha_Application_P1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		724BDFB52B43EFEC008FB418 /* Aartidata.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Aartidata.xcdatamodel; sourceTree = "<group>"; };
+		7265141C2B3C059100F6E05A /* MurtiDispCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MurtiDispCVC.swift; sourceTree = "<group>"; };
+		7265141D2B3C059100F6E05A /* MurtiDispCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MurtiDispCVC.xib; sourceTree = "<group>"; };
+		7293BE6A2B3E87C100AFD52A /* StoryCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCVC.swift; sourceTree = "<group>"; };
+		7293BE6B2B3E87C100AFD52A /* StoryCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoryCVC.xib; sourceTree = "<group>"; };
+		729AFBB12B3AB0BD003AC9FE /* GstoriesCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GstoriesCVC.swift; sourceTree = "<group>"; };
+		729AFBB22B3AB0BD003AC9FE /* GstoriesCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GstoriesCVC.xib; sourceTree = "<group>"; };
+		729AFBB62B3AC0B4003AC9FE /* StoryDetailsDispla.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StoryDetailsDispla.storyboard; sourceTree = "<group>"; };
+		729AFBB82B3AC0FC003AC9FE /* Gstory2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gstory2.swift; sourceTree = "<group>"; };
+		729AFBBB2B3AC627003AC9FE /* DisplayMurtiApi.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DisplayMurtiApi.storyboard; sourceTree = "<group>"; };
+		729AFBBD2B3AC63B003AC9FE /* MurtiCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MurtiCVC.swift; sourceTree = "<group>"; };
+		72BDCCEA2B3413350042601A /* AartiCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AartiCVC.swift; sourceTree = "<group>"; };
+		72BDCCEB2B3413350042601A /* AartiCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AartiCVC.xib; sourceTree = "<group>"; };
+		72BDCCEF2B341FB80042601A /* Aarti play.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Aarti play.storyboard"; sourceTree = "<group>"; };
+		72BDCCF12B341FED0042601A /* Aarti play.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Aarti play.swift"; sourceTree = "<group>"; };
+		72BDCCF42B3421730042601A /* IdeasDisplay.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IdeasDisplay.storyboard; sourceTree = "<group>"; };
+		72BDCCF82B3421A30042601A /* IdeasDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdeasDisplay.swift; sourceTree = "<group>"; };
+		72BDCCFB2B3433020042601A /* MandalDisplay.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MandalDisplay.storyboard; sourceTree = "<group>"; };
+		72BDCCFD2B34331C0042601A /* MandalDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MandalDisplay.swift; sourceTree = "<group>"; };
+		72BDCD002B343C7A0042601A /* DMCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMCollectionViewCell.swift; sourceTree = "<group>"; };
+		72BDCD012B343C7A0042601A /* DMCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DMCollectionViewCell.xib; sourceTree = "<group>"; };
+		72F803EC2B45316E00D79B93 /* DisplayAartiCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayAartiCVC.swift; sourceTree = "<group>"; };
+		72F803ED2B45316E00D79B93 /* DisplayAartiCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DisplayAartiCVC.xib; sourceTree = "<group>"; };
+		9B0DA5122B302DC9004959BB /* MurtikarCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MurtikarCVC.swift; sourceTree = "<group>"; };
+		9B0DA5132B302DC9004959BB /* MurtikarCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MurtikarCVC.xib; sourceTree = "<group>"; };
+		9B897E3E2B316D3D000E7020 /* MandalCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MandalCVC.swift; sourceTree = "<group>"; };
+		9B897E3F2B316D3D000E7020 /* MandalCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MandalCVC.xib; sourceTree = "<group>"; };
+		9B897E442B318665000E7020 /* IdeaCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdeaCVC.swift; sourceTree = "<group>"; };
+		9B897E452B318665000E7020 /* IdeaCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IdeaCVC.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FA268272B21937400BDFD9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDD77A497A1126E89D71CDFF /* Pods_Ganesha_Application_P1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F708F452B2C427100067B07 /* EcofriendlyCVC */ = {
+			isa = PBXGroup;
+			children = (
+				3F708F482B2C42B900067B07 /* EcoFriendlyCVC.swift */,
+				3F708F492B2C42B900067B07 /* EcoFriendlyCVC.xib */,
+			);
+			path = EcofriendlyCVC;
+			sourceTree = "<group>";
+		};
+		3FA268212B21937400BDFD9C = {
+			isa = PBXGroup;
+			children = (
+				3FA2682C2B21937400BDFD9C /* Ganesha Application P1 */,
+				3FA2682B2B21937400BDFD9C /* Products */,
+				7308B9BD87C0E9FEF549F248 /* Pods */,
+				7283E2B449519420B6622A3B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3FA2682B2B21937400BDFD9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FA2682A2B21937400BDFD9C /* Ganesha Application P1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FA2682C2B21937400BDFD9C /* Ganesha Application P1 */ = {
+			isa = PBXGroup;
+			children = (
+				3FA268512B21B36F00BDFD9C /* UI page1 */,
+				3FA268462B2193C600BDFD9C /* Ganesha Images */,
+				3FA268452B2193C000BDFD9C /* Famous Murtikar */,
+				3FA268442B2193BC00BDFD9C /* Famous Mandal */,
+				3FA268432B2193B800BDFD9C /* Decoration Ideas */,
+				3FA268422B2193B400BDFD9C /* Ganesh Aarti */,
+				3FA268412B2193B000BDFD9C /* Ganesha Stories */,
+				3FA2682D2B21937400BDFD9C /* AppDelegate.swift */,
+				3FA2682F2B21937400BDFD9C /* SceneDelegate.swift */,
+				3FA268312B21937400BDFD9C /* ViewController.swift */,
+				3FA268332B21937400BDFD9C /* Main.storyboard */,
+				3FA268362B21937500BDFD9C /* Assets.xcassets */,
+				3FA268382B21937500BDFD9C /* LaunchScreen.storyboard */,
+				3FA2683B2B21937500BDFD9C /* Info.plist */,
+			);
+			path = "Ganesha Application P1";
+			sourceTree = "<group>";
+		};
+		3FA268412B2193B000BDFD9C /* Ganesha Stories */ = {
+			isa = PBXGroup;
+			children = (
+				3FE38DC42B2C322000C1EFB8 /* GaneshStories.storyboard */,
+				3FE38DCE2B2C333F00C1EFB8 /* Gstories.swift */,
+				729AFBB02B3AB093003AC9FE /* Gstories Cell */,
+				729AFBB52B3ABFD0003AC9FE /* Details Story Display */,
+			);
+			path = "Ganesha Stories";
+			sourceTree = "<group>";
+		};
+		3FA268422B2193B400BDFD9C /* Ganesh Aarti */ = {
+			isa = PBXGroup;
+			children = (
+				3FE38DC22B2C321000C1EFB8 /* GaneshAarti.storyboard */,
+				3FE38DCC2B2C332C00C1EFB8 /* Gaarti.swift */,
+				72BDCCE52B33FCF10042601A /* Aarti cells */,
+				72BDCCEE2B341F6C0042601A /* AartiPlayer Display */,
+				724BDFB42B43EFEC008FB418 /* Aartidata.xcdatamodeld */,
+			);
+			path = "Ganesh Aarti";
+			sourceTree = "<group>";
+		};
+		3FA268432B2193B800BDFD9C /* Decoration Ideas */ = {
+			isa = PBXGroup;
+			children = (
+				9B897E432B318640000E7020 /* Dideas VC */,
+				9B897E422B31862C000E7020 /* Dideas cell */,
+			);
+			path = "Decoration Ideas";
+			sourceTree = "<group>";
+		};
+		3FA268442B2193BC00BDFD9C /* Famous Mandal */ = {
+			isa = PBXGroup;
+			children = (
+				9B897E3D2B316D09000E7020 /* Famous mandal VC */,
+				9B897E3C2B316CE0000E7020 /* Famous Mandal cell */,
+			);
+			path = "Famous Mandal";
+			sourceTree = "<group>";
+		};
+		3FA268452B2193C000BDFD9C /* Famous Murtikar */ = {
+			isa = PBXGroup;
+			children = (
+				3FE38DBC2B2C31D700C1EFB8 /* Famous.storyboard */,
+				3FE38DC62B2C32EB00C1EFB8 /* Fmurtikar.swift */,
+				9B0DA5112B302D75004959BB /* Famous Murtikar cells */,
+			);
+			path = "Famous Murtikar";
+			sourceTree = "<group>";
+		};
+		3FA268462B2193C600BDFD9C /* Ganesha Images */ = {
+			isa = PBXGroup;
+			children = (
+				3FE38DBA2B2AE18A00C1EFB8 /* GaneshaIMG.storyboard */,
+				3FC91C392B22F2200007ED85 /* GimgVC.swift */,
+				9B0DA5162B305B18004959BB /* ganeshaimg cvc */,
+				3FE38DD12B2C3E3700C1EFB8 /* EcoFriendly */,
+			);
+			path = "Ganesha Images";
+			sourceTree = "<group>";
+		};
+		3FA268512B21B36F00BDFD9C /* UI page1 */ = {
+			isa = PBXGroup;
+			children = (
+				3FA268562B21B5B300BDFD9C /* CircleImg.swift */,
+				3FA268572B21B5B300BDFD9C /* CircleImg.xib */,
+			);
+			path = "UI page1";
+			sourceTree = "<group>";
+		};
+		3FE38DD12B2C3E3700C1EFB8 /* EcoFriendly */ = {
+			isa = PBXGroup;
+			children = (
+				3FE38DD22B2C3E5B00C1EFB8 /* EcoFriendly.storyboard */,
+				3FE38DD42B2C3E7200C1EFB8 /* EcoFriendlyVC.swift */,
+				3F708F452B2C427100067B07 /* EcofriendlyCVC */,
+			);
+			path = EcoFriendly;
+			sourceTree = "<group>";
+		};
+		7265141B2B3C056800F6E05A /* Display Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7265141D2B3C059100F6E05A /* MurtiDispCVC.xib */,
+				7265141C2B3C059100F6E05A /* MurtiDispCVC.swift */,
+			);
+			path = "Display Cell";
+			sourceTree = "<group>";
+		};
+		7283E2B449519420B6622A3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				696EE73F0202C3B12EAE792E /* Pods_Ganesha_Application_P1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7293BE5F2B3E81BC00AFD52A /* StoryDetailCell */ = {
+			isa = PBXGroup;
+			children = (
+				7293BE6A2B3E87C100AFD52A /* StoryCVC.swift */,
+				7293BE6B2B3E87C100AFD52A /* StoryCVC.xib */,
+			);
+			path = StoryDetailCell;
+			sourceTree = "<group>";
+		};
+		729AFBB02B3AB093003AC9FE /* Gstories Cell */ = {
+			isa = PBXGroup;
+			children = (
+				729AFBB12B3AB0BD003AC9FE /* GstoriesCVC.swift */,
+				729AFBB22B3AB0BD003AC9FE /* GstoriesCVC.xib */,
+			);
+			path = "Gstories Cell";
+			sourceTree = "<group>";
+		};
+		729AFBB52B3ABFD0003AC9FE /* Details Story Display */ = {
+			isa = PBXGroup;
+			children = (
+				729AFBB62B3AC0B4003AC9FE /* StoryDetailsDispla.storyboard */,
+				729AFBB82B3AC0FC003AC9FE /* Gstory2.swift */,
+				7293BE5F2B3E81BC00AFD52A /* StoryDetailCell */,
+			);
+			path = "Details Story Display";
+			sourceTree = "<group>";
+		};
+		729AFBBA2B3AC5D4003AC9FE /* Famous Murtikaar Display */ = {
+			isa = PBXGroup;
+			children = (
+				729AFBBB2B3AC627003AC9FE /* DisplayMurtiApi.storyboard */,
+				729AFBBD2B3AC63B003AC9FE /* MurtiCVC.swift */,
+				7265141B2B3C056800F6E05A /* Display Cell */,
+			);
+			path = "Famous Murtikaar Display";
+			sourceTree = "<group>";
+		};
+		72BDCCE52B33FCF10042601A /* Aarti cells */ = {
+			isa = PBXGroup;
+			children = (
+				72BDCCEA2B3413350042601A /* AartiCVC.swift */,
+				72BDCCEB2B3413350042601A /* AartiCVC.xib */,
+			);
+			path = "Aarti cells";
+			sourceTree = "<group>";
+		};
+		72BDCCEE2B341F6C0042601A /* AartiPlayer Display */ = {
+			isa = PBXGroup;
+			children = (
+				72BDCCEF2B341FB80042601A /* Aarti play.storyboard */,
+				72BDCCF12B341FED0042601A /* Aarti play.swift */,
+				72F803EB2B45314100D79B93 /* Display Cell */,
+			);
+			path = "AartiPlayer Display";
+			sourceTree = "<group>";
+		};
+		72BDCCF32B3421000042601A /* iideas display */ = {
+			isa = PBXGroup;
+			children = (
+				72BDCCF42B3421730042601A /* IdeasDisplay.storyboard */,
+				72BDCCF82B3421A30042601A /* IdeasDisplay.swift */,
+			);
+			path = "iideas display";
+			sourceTree = "<group>";
+		};
+		72BDCCFA2B3432D50042601A /* Famous Mandal Display */ = {
+			isa = PBXGroup;
+			children = (
+				72BDCCFB2B3433020042601A /* MandalDisplay.storyboard */,
+				72BDCCFD2B34331C0042601A /* MandalDisplay.swift */,
+				72BDCCFF2B343C480042601A /* MandalDisplayCVC */,
+			);
+			path = "Famous Mandal Display";
+			sourceTree = "<group>";
+		};
+		72BDCCFF2B343C480042601A /* MandalDisplayCVC */ = {
+			isa = PBXGroup;
+			children = (
+				72BDCD002B343C7A0042601A /* DMCollectionViewCell.swift */,
+				72BDCD012B343C7A0042601A /* DMCollectionViewCell.xib */,
+			);
+			path = MandalDisplayCVC;
+			sourceTree = "<group>";
+		};
+		72F803EB2B45314100D79B93 /* Display Cell */ = {
+			isa = PBXGroup;
+			children = (
+				72F803EC2B45316E00D79B93 /* DisplayAartiCVC.swift */,
+				72F803ED2B45316E00D79B93 /* DisplayAartiCVC.xib */,
+			);
+			path = "Display Cell";
+			sourceTree = "<group>";
+		};
+		7308B9BD87C0E9FEF549F248 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				426F28D5E5B83C9BCD42A644 /* Pods-Ganesha Application P1.debug.xcconfig */,
+				1812E69BE0F37DCD2DB74A4E /* Pods-Ganesha Application P1.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9B0DA5112B302D75004959BB /* Famous Murtikar cells */ = {
+			isa = PBXGroup;
+			children = (
+				9B0DA5122B302DC9004959BB /* MurtikarCVC.swift */,
+				9B0DA5132B302DC9004959BB /* MurtikarCVC.xib */,
+				729AFBBA2B3AC5D4003AC9FE /* Famous Murtikaar Display */,
+			);
+			path = "Famous Murtikar cells";
+			sourceTree = "<group>";
+		};
+		9B0DA5162B305B18004959BB /* ganeshaimg cvc */ = {
+			isa = PBXGroup;
+			children = (
+				3FA268602B21CB2C00BDFD9C /* GaneshaimgCVC.swift */,
+				3FA268612B21CB2C00BDFD9C /* GaneshaimgCVC.xib */,
+			);
+			path = "ganeshaimg cvc";
+			sourceTree = "<group>";
+		};
+		9B897E3C2B316CE0000E7020 /* Famous Mandal cell */ = {
+			isa = PBXGroup;
+			children = (
+				9B897E3E2B316D3D000E7020 /* MandalCVC.swift */,
+				9B897E3F2B316D3D000E7020 /* MandalCVC.xib */,
+				72BDCCFA2B3432D50042601A /* Famous Mandal Display */,
+			);
+			path = "Famous Mandal cell";
+			sourceTree = "<group>";
+		};
+		9B897E3D2B316D09000E7020 /* Famous mandal VC */ = {
+			isa = PBXGroup;
+			children = (
+				3FE38DBE2B2C31F200C1EFB8 /* FamousMandal.storyboard */,
+				3FE38DC82B2C330200C1EFB8 /* Fmandal.swift */,
+			);
+			path = "Famous mandal VC";
+			sourceTree = "<group>";
+		};
+		9B897E422B31862C000E7020 /* Dideas cell */ = {
+			isa = PBXGroup;
+			children = (
+				9B897E452B318665000E7020 /* IdeaCVC.xib */,
+				9B897E442B318665000E7020 /* IdeaCVC.swift */,
+				72BDCCF32B3421000042601A /* iideas display */,
+			);
+			path = "Dideas cell";
+			sourceTree = "<group>";
+		};
+		9B897E432B318640000E7020 /* Dideas VC */ = {
+			isa = PBXGroup;
+			children = (
+				3FE38DC02B2C320000C1EFB8 /* Decoration.storyboard */,
+				3FE38DCA2B2C331600C1EFB8 /* Dideas.swift */,
+			);
+			path = "Dideas VC";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FA268292B21937400BDFD9C /* Ganesha Application P1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FA2683E2B21937500BDFD9C /* Build configuration list for PBXNativeTarget "Ganesha Application P1" */;
+			buildPhases = (
+				0DE0BF25A93670D81467297A /* [CP] Check Pods Manifest.lock */,
+				3FA268262B21937400BDFD9C /* Sources */,
+				3FA268272B21937400BDFD9C /* Frameworks */,
+				3FA268282B21937400BDFD9C /* Resources */,
+				FB3591A85DC4368046B9661B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ganesha Application P1";
+			productName = "Ganesha Application P1";
+			productReference = 3FA2682A2B21937400BDFD9C /* Ganesha Application P1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FA268222B21937400BDFD9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3FA268292B21937400BDFD9C = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 3FA268252B21937400BDFD9C /* Build configuration list for PBXProject "Ganesha Application P1" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FA268212B21937400BDFD9C;
+			productRefGroup = 3FA2682B2B21937400BDFD9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FA268292B21937400BDFD9C /* Ganesha Application P1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FA268282B21937400BDFD9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA2683A2B21937500BDFD9C /* LaunchScreen.storyboard in Resources */,
+				3FA268592B21B5B300BDFD9C /* CircleImg.xib in Resources */,
+				7293BE6D2B3E87C100AFD52A /* StoryCVC.xib in Resources */,
+				3FE38DBD2B2C31D700C1EFB8 /* Famous.storyboard in Resources */,
+				3FE38DBB2B2AE18A00C1EFB8 /* GaneshaIMG.storyboard in Resources */,
+				729AFBB42B3AB0BD003AC9FE /* GstoriesCVC.xib in Resources */,
+				3FA268372B21937500BDFD9C /* Assets.xcassets in Resources */,
+				3FE38DD32B2C3E5B00C1EFB8 /* EcoFriendly.storyboard in Resources */,
+				3F708F4B2B2C42B900067B07 /* EcoFriendlyCVC.xib in Resources */,
+				9B0DA5152B302DC9004959BB /* MurtikarCVC.xib in Resources */,
+				72BDCCF52B3421730042601A /* IdeasDisplay.storyboard in Resources */,
+				729AFBBC2B3AC627003AC9FE /* DisplayMurtiApi.storyboard in Resources */,
+				9B897E412B316D3D000E7020 /* MandalCVC.xib in Resources */,
+				72BDCCF02B341FB80042601A /* Aarti play.storyboard in Resources */,
+				72BDCCED2B3413350042601A /* AartiCVC.xib in Resources */,
+				729AFBB72B3AC0B4003AC9FE /* StoryDetailsDispla.storyboard in Resources */,
+				3FE38DC52B2C322000C1EFB8 /* GaneshStories.storyboard in Resources */,
+				3FA268632B21CB2C00BDFD9C /* GaneshaimgCVC.xib in Resources */,
+				9B897E472B318665000E7020 /* IdeaCVC.xib in Resources */,
+				72BDCD032B343C7A0042601A /* DMCollectionViewCell.xib in Resources */,
+				3FE38DC32B2C321000C1EFB8 /* GaneshAarti.storyboard in Resources */,
+				3FE38DBF2B2C31F200C1EFB8 /* FamousMandal.storyboard in Resources */,
+				7265141F2B3C059100F6E05A /* MurtiDispCVC.xib in Resources */,
+				3FE38DC12B2C320000C1EFB8 /* Decoration.storyboard in Resources */,
+				72F803EF2B45316E00D79B93 /* DisplayAartiCVC.xib in Resources */,
+				72BDCCFC2B3433020042601A /* MandalDisplay.storyboard in Resources */,
+				3FA268352B21937400BDFD9C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DE0BF25A93670D81467297A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ganesha Application P1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB3591A85DC4368046B9661B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ganesha Application P1/Pods-Ganesha Application P1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ganesha Application P1/Pods-Ganesha Application P1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ganesha Application P1/Pods-Ganesha Application P1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FA268262B21937400BDFD9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72BDCCEC2B3413350042601A /* AartiCVC.swift in Sources */,
+				3FC91C3A2B22F2200007ED85 /* GimgVC.swift in Sources */,
+				729AFBB92B3AC0FC003AC9FE /* Gstory2.swift in Sources */,
+				72BDCCF22B341FED0042601A /* Aarti play.swift in Sources */,
+				7293BE6C2B3E87C100AFD52A /* StoryCVC.swift in Sources */,
+				72BDCD022B343C7A0042601A /* DMCollectionViewCell.swift in Sources */,
+				72BDCCF92B3421A30042601A /* IdeasDisplay.swift in Sources */,
+				9B0DA5142B302DC9004959BB /* MurtikarCVC.swift in Sources */,
+				729AFBB32B3AB0BD003AC9FE /* GstoriesCVC.swift in Sources */,
+				3FA268322B21937400BDFD9C /* ViewController.swift in Sources */,
+				3FA268582B21B5B300BDFD9C /* CircleImg.swift in Sources */,
+				3FE38DD52B2C3E7200C1EFB8 /* EcoFriendlyVC.swift in Sources */,
+				7265141E2B3C059100F6E05A /* MurtiDispCVC.swift in Sources */,
+				3FE38DCD2B2C332C00C1EFB8 /* Gaarti.swift in Sources */,
+				9B897E402B316D3D000E7020 /* MandalCVC.swift in Sources */,
+				9B897E462B318665000E7020 /* IdeaCVC.swift in Sources */,
+				3FE38DC92B2C330200C1EFB8 /* Fmandal.swift in Sources */,
+				3FE38DCB2B2C331600C1EFB8 /* Dideas.swift in Sources */,
+				3FA268622B21CB2C00BDFD9C /* GaneshaimgCVC.swift in Sources */,
+				724BDFB62B43EFEC008FB418 /* Aartidata.xcdatamodeld in Sources */,
+				3FA2682E2B21937400BDFD9C /* AppDelegate.swift in Sources */,
+				3FA268302B21937400BDFD9C /* SceneDelegate.swift in Sources */,
+				3FE38DC72B2C32EB00C1EFB8 /* Fmurtikar.swift in Sources */,
+				72F803EE2B45316E00D79B93 /* DisplayAartiCVC.swift in Sources */,
+				72BDCCFE2B34331C0042601A /* MandalDisplay.swift in Sources */,
+				3FE38DCF2B2C333F00C1EFB8 /* Gstories.swift in Sources */,
+				729AFBBE2B3AC63B003AC9FE /* MurtiCVC.swift in Sources */,
+				3F708F4A2B2C42B900067B07 /* EcoFriendlyCVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3FA268332B21937400BDFD9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FA268342B21937400BDFD9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FA268382B21937500BDFD9C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FA268392B21937500BDFD9C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FA2683C2B21937500BDFD9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FA2683D2B21937500BDFD9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FA2683F2B21937500BDFD9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 426F28D5E5B83C9BCD42A644 /* Pods-Ganesha Application P1.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ganesha Application P1/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "trycatch.com.Ganesha-Application-P1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FA268402B21937500BDFD9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1812E69BE0F37DCD2DB74A4E /* Pods-Ganesha Application P1.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ganesha Application P1/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "trycatch.com.Ganesha-Application-P1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FA268252B21937400BDFD9C /* Build configuration list for PBXProject "Ganesha Application P1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA2683C2B21937500BDFD9C /* Debug */,
+				3FA2683D2B21937500BDFD9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FA2683E2B21937500BDFD9C /* Build configuration list for PBXNativeTarget "Ganesha Application P1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA2683F2B21937500BDFD9C /* Debug */,
+				3FA268402B21937500BDFD9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		724BDFB42B43EFEC008FB418 /* Aartidata.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				724BDFB52B43EFEC008FB418 /* Aartidata.xcdatamodel */,
+			);
+			currentVersion = 724BDFB52B43EFEC008FB418 /* Aartidata.xcdatamodel */;
+			path = Aartidata.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3FA268222B21937400BDFD9C /* Project object */;
+}

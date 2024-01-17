@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--GimgVC-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="GimgVC" id="Y6W-OH-hqX" customClass="GimgVC" customModule="Ganesha_Application_P1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TOP BANNAR" translatesAutoresizingMaskIntoConstraints="NO" id="Nxp-ef-6Yh">
+                                <rect key="frame" x="0.0" y="59" width="393" height="171"/>
+                            </imageView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="YpT-eB-gGy">
+                                <rect key="frame" x="0.0" y="230" width="393" height="557"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="pfX-jB-uxl">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <imageView key="backgroundView" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BOTTOM BACKGROUND " id="DWH-pr-Dfi">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="557"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <cells/>
+                            </collectionView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GANESHA IMAGES IP Rectangle" translatesAutoresizingMaskIntoConstraints="NO" id="6Xc-4s-gkd">
+                                <rect key="frame" x="0.0" y="787" width="393" height="65"/>
+                                <color key="backgroundColor" red="0.83876639604568481" green="0.071754567325115204" blue="0.067526943981647491" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="Xiy-q0-3dc"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="6Xc-4s-gkd" secondAttribute="trailing" id="5AA-cJ-jAC"/>
+                            <constraint firstItem="Nxp-ef-6Yh" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="9JB-Qv-eq3"/>
+                            <constraint firstItem="6Xc-4s-gkd" firstAttribute="top" secondItem="YpT-eB-gGy" secondAttribute="bottom" id="KBC-2k-t50"/>
+                            <constraint firstItem="Nxp-ef-6Yh" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="Mcf-NL-oef"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Nxp-ef-6Yh" secondAttribute="trailing" id="NMB-ot-Gfh"/>
+                            <constraint firstAttribute="bottom" secondItem="6Xc-4s-gkd" secondAttribute="bottom" id="Pjw-50-7Ge"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="YpT-eB-gGy" secondAttribute="trailing" id="Ua6-2T-tfA"/>
+                            <constraint firstItem="6Xc-4s-gkd" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="cnv-uw-Afo"/>
+                            <constraint firstItem="YpT-eB-gGy" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="grh-Zc-3zl"/>
+                            <constraint firstItem="YpT-eB-gGy" firstAttribute="top" secondItem="Nxp-ef-6Yh" secondAttribute="bottom" id="jVm-pm-LqQ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="6Sm-Z5-u89"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="CollectionView1" destination="YpT-eB-gGy" id="ylM-Xw-MUa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1887.7862595419847" y="-2.1126760563380285"/>
+        </scene>
+        <!--EcoFriendly-->
+        <scene sceneID="ARu-H5-uXu">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="EcoFriendlyVC" storyboardName="EcoFriendly" id="ZLa-2O-G2q" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="LuN-wZ-xl4"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AeT-Bl-1zA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="439" y="425"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Eef-Ns-BER">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ikg-ho-KV5" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Z0g-kQ-scc">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ZLa-2O-G2q" kind="push" id="LSS-Uo-iCU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0CQ-Js-PDL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="961.06870229007632" y="-2.1126760563380285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BOTTOM BACKGROUND " width="361" height="552"/>
+        <image name="GANESHA IMAGES IP Rectangle" width="375" height="36"/>
+        <image name="TOP BANNAR" width="375" height="171"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

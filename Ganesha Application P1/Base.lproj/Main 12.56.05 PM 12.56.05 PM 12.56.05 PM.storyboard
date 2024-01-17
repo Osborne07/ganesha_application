@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="DRn-63-nzy">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Ganesha_Application_P1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IZa-rw-dXE">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TOP BACKGRAOUND" translatesAutoresizingMaskIntoConstraints="NO" id="SlC-WK-KuC">
+                                <rect key="frame" x="0.0" y="103" width="393" height="243"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MY GANESHA IP Rectangle" translatesAutoresizingMaskIntoConstraints="NO" id="GO1-qC-f2s">
+                                <rect key="frame" x="0.0" y="346" width="393" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="VTa-xd-bbf"/>
+                                </constraints>
+                            </imageView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="3RM-na-vHY">
+                                <rect key="frame" x="0.0" y="396" width="393" height="373"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="mDt-kl-yQh">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <imageView key="backgroundView" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BOTTOM BACKGROUND " id="Udl-dS-cDA">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="373"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <cells/>
+                            </collectionView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Ganesha" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uaY-LQ-FZF">
+                                <rect key="frame" x="40" y="346" width="313" height="50"/>
+                                <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="17"/>
+                                <color key="textColor" red="0.83876639604568481" green="0.071754567325115204" blue="0.067526943981647491" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GANESHA IMAGES IP Rectangle" translatesAutoresizingMaskIntoConstraints="NO" id="7sJ-Tz-6ki">
+                                <rect key="frame" x="0.0" y="777" width="393" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="7Ny-aK-F4B"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="7Ny-aK-F4B" firstAttribute="trailing" secondItem="3RM-na-vHY" secondAttribute="trailing" id="1KN-3f-1qU"/>
+                            <constraint firstItem="uaY-LQ-FZF" firstAttribute="top" secondItem="SlC-WK-KuC" secondAttribute="bottom" id="DPU-wt-2Tf"/>
+                            <constraint firstItem="GO1-qC-f2s" firstAttribute="top" secondItem="SlC-WK-KuC" secondAttribute="bottom" id="JFd-BS-I1A"/>
+                            <constraint firstItem="SlC-WK-KuC" firstAttribute="leading" secondItem="7Ny-aK-F4B" secondAttribute="leading" id="JGU-AF-sEv"/>
+                            <constraint firstItem="7Ny-aK-F4B" firstAttribute="bottom" secondItem="3RM-na-vHY" secondAttribute="bottom" id="Lt3-0M-v8o"/>
+                            <constraint firstItem="uaY-LQ-FZF" firstAttribute="leading" secondItem="7Ny-aK-F4B" secondAttribute="leading" constant="40" id="N9W-Wn-4Dv"/>
+                            <constraint firstItem="3RM-na-vHY" firstAttribute="leading" secondItem="7Ny-aK-F4B" secondAttribute="leading" id="Rnh-DT-1Le"/>
+                            <constraint firstItem="7Ny-aK-F4B" firstAttribute="trailing" secondItem="GO1-qC-f2s" secondAttribute="trailing" id="U35-vW-YGC"/>
+                            <constraint firstItem="GO1-qC-f2s" firstAttribute="leading" secondItem="7Ny-aK-F4B" secondAttribute="leading" id="g7m-6C-krK"/>
+                            <constraint firstItem="SlC-WK-KuC" firstAttribute="top" secondItem="7Ny-aK-F4B" secondAttribute="top" id="iMv-Bc-Iu8"/>
+                            <constraint firstItem="3RM-na-vHY" firstAttribute="top" secondItem="GO1-qC-f2s" secondAttribute="bottom" id="jCv-35-dZH"/>
+                            <constraint firstItem="3RM-na-vHY" firstAttribute="top" secondItem="uaY-LQ-FZF" secondAttribute="bottom" id="nTj-su-DJZ"/>
+                            <constraint firstItem="7Ny-aK-F4B" firstAttribute="trailing" secondItem="SlC-WK-KuC" secondAttribute="trailing" id="o9d-36-Q2U"/>
+                            <constraint firstItem="7Ny-aK-F4B" firstAttribute="trailing" secondItem="uaY-LQ-FZF" secondAttribute="trailing" constant="40" id="t2P-hT-TDX"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="pFS-0m-PUq"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="Header1" destination="GO1-qC-f2s" id="bHR-Fm-Dy2"/>
+                        <outlet property="TopBackground" destination="SlC-WK-KuC" id="ytS-yE-c92"/>
+                        <outlet property="collectionView" destination="3RM-na-vHY" id="CM6-r2-Yjp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1370.2290076335878" y="-213.38028169014086"/>
+        </scene>
+        <!--GaneshaIMG-->
+        <scene sceneID="BQ8-2v-Qtp">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="GimgVC" storyboardName="GaneshaIMG" id="og4-bz-ujL" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="6qv-7h-2Ij"/>
+                    <navigationItem key="navigationItem" id="ID8-tz-OT0"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lat-0Y-8MG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-941" y="193"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="Xuh-Z3-BRI">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="DRn-63-nzy" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" image="home-button" id="2gp-9u-x21">
+                        <color key="badgeColor" systemColor="systemBackgroundColor"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="9F9-s8-xdE">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.83876639604568481" green="0.071754567325115204" blue="0.067526943981647491" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="bJz-8H-mHY"/>
+                        <segue destination="og4-bz-ujL" kind="push" id="6Hf-sK-Czk"/>
+                        <segue destination="wPN-4c-8xG" kind="push" id="chj-lh-LgJ"/>
+                        <segue destination="IwW-WN-RhX" kind="push" id="4X2-B8-bih"/>
+                        <segue destination="6Ub-wJ-Ktr" kind="push" id="mJH-Mu-Qqg"/>
+                        <segue destination="aDR-9z-7en" kind="push" id="JQR-b4-ESw"/>
+                        <segue destination="Wh3-G9-1Gf" kind="push" id="yVv-lo-MOZ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kTz-bc-fDs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="424" y="-213"/>
+        </scene>
+        <!--Decoration-->
+        <scene sceneID="lit-8w-bPV">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Dideas" storyboardName="Decoration" id="6Ub-wJ-Ktr" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="y7E-Ol-II1"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wal-p9-51g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="198" y="458"/>
+        </scene>
+        <!--GaneshStories-->
+        <scene sceneID="lmv-JC-TOc">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Gstories" storyboardName="GaneshStories" id="Wh3-G9-1Gf" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="bK9-t5-Om3"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gbC-hb-T6c" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1332" y="458"/>
+        </scene>
+        <!--GaneshAarti-->
+        <scene sceneID="Yan-Up-VQ3">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Gaarti" storyboardName="GaneshAarti" id="aDR-9z-7en" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="dN5-21-aOo"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2pc-xE-7qy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="711" y="458"/>
+        </scene>
+        <!--FamousMandal-->
+        <scene sceneID="87i-iz-Ck3">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Fmandal" storyboardName="FamousMandal" id="IwW-WN-RhX" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="SfY-dQ-8eX"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G8g-nD-ZYl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-474" y="432"/>
+        </scene>
+        <!--Famous-->
+        <scene sceneID="M6I-ly-QGy">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Fmurtikar" storyboardName="Famous" id="wPN-4c-8xG" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Gg3-WM-u85"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MSP-0e-z9P" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-848" y="334"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BOTTOM BACKGROUND " width="361" height="552"/>
+        <image name="GANESHA IMAGES IP Rectangle" width="375" height="36"/>
+        <image name="MY GANESHA IP Rectangle" width="375" height="50"/>
+        <image name="TOP BACKGRAOUND" width="375" height="243"/>
+        <image name="home-button" width="30" height="26"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
